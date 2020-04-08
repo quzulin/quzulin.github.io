@@ -566,7 +566,7 @@ footer p {
 /* Articles */
 
 .article-list {
-  /* min-height: 1000px; */
+  min-height: 200px;
 }
 
 .article-list p {
@@ -596,8 +596,4 @@ footer p {
 
 .fb {
   font-weight: bold;
-}
-
-.dol-list a, .co__red {
-  color: red !important;
 }

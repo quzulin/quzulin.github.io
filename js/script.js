@@ -65,14 +65,6 @@ function getArticles(res) {
 	$('#allArticles').html(strHtml_all_art)
 }
 
-//resources
-function getResources(res) {
-	strHtml_res = ""
-	$.each(res, function (index, data) {
-		
-	})
-	$('#resources').html(strHtml_res)
-}
 
 // handle links with @href started with '#' only
 // $(document).on('click', 'a[href^="#"]', function (e) {
