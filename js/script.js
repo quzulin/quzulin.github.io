@@ -66,6 +66,7 @@ function getArticles(res) {
 }
 
 
+
 // handle links with @href started with '#' only
 // $(document).on('click', 'a[href^="#"]', function (e) {
 // 	// target element id
