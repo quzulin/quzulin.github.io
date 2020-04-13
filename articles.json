@@ -1,5 +1,21 @@
 getArticles([
     {
+        "url": "https://mp.weixin.qq.com/s/AMMQC8zJOK3EM3uv6klR2w",
+        "poster": "img/mp/mp-20200329.png",
+        "title": "[Oracle 专题] SQL 递归遍历树结构",
+        "subheading": "",
+        "original": "原创",
+        "author": "小心尘土",
+        "date": "2020年4月12日"
+    }, {
+        "url": "https://mp.weixin.qq.com/s/WgkZE-vzU05_NUgyjgY7-w",
+        "poster": "img/mp/mp-20200329.png",
+        "title": "[Oracle 专题] SQL 处理 xml 数据",
+        "subheading": "",
+        "original": "原创",
+        "author": "小心尘土",
+        "date": "2020年4月10日"
+    }, {
         "url": "https://mp.weixin.qq.com/s/98HPdsinofwJVNgqHGL6gw",
         "poster": "img/mp/mp-20200329.png",
         "title": "[Oracle 专题] SQL 分析函数（窗口函数 over）",
