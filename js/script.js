@@ -53,10 +53,10 @@ function getArticles(res) {
 	$.each(res, function (index, data) {
 		strHtml_all_art += "<a href='" + data['url']
 		strHtml_all_art += "' target='_blank'><div class='article-item row'><div class='col-md-3'><br><img src='" + data['poster']
-		strHtml_all_art += "'></div><div class='col-md-9'><h3>" + data['title']
-		strHtml_all_art += "</h3><h5>" + data['subheading']
-		strHtml_all_art += "</h5><br><h6>" + data['original'] + ' ' + data['author'] + ' ' + data['date']
-		strHtml_all_art += "</h6></div></div></a>"
+		strHtml_all_art += "'></div><div class='col-md-9'><br><h4>" + data['title']
+		strHtml_all_art += "</h4	><h5>" + data['subheading']
+		strHtml_all_art += "</h5><br><h6 class=''><span class='original'>" + data['original'] + " " + data['author'] + "</span><span class='pull-right'>" + data['date']
+		strHtml_all_art += "</span></h6></div></div></a>"
 		if (index <= 2) {
 			strHtml_art = strHtml_all_art
 		}
